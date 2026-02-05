@@ -18,7 +18,7 @@ const AppWorkFlow = () => {
         {/* LEFT: PHONES */}
         <div className="workflow-phones">
           <img src={phone1} alt="Call screen" className="phone front" />
-          {/* <img src={phone2} alt="Map screen" className="phone back" /> */}
+          
         </div>
 
         {/* RIGHT: STEPS */}

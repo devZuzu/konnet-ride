@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
-import AppWorkFlow from '../components/AppWorkFlow';
+import AppWorkflow from '../components/AppWorkflow';
 import DownloadCTA from '../components/DownloadCTA';
 import Footer from '../components/Footer';
 
@@ -12,7 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <HowItWorks />
-      <AppWorkFlow />
+      <AppWorkflow />
       <DownloadCTA />
       <Footer />
       
