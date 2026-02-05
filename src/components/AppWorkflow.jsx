@@ -1,11 +1,10 @@
-import "./AppWorkflow.css";
+import "./AppWorkFlow.css";
 import phone1 from "../assets/app-workflow.png";
-/* import phone2 from "../assets/phone-map.png"; */
 import Message from "../assets/envelope-icon.png";
 import Car from "../assets/car-icon.png";
 import Upload from "../assets/upload-icon.png";
 
-const AppWorkflow = () => {
+const AppWorkFlow = () => {
   return (
     <section className="workflow">
       <h2>App Workflow</h2>
@@ -53,4 +52,4 @@ const AppWorkflow = () => {
   );
 };
 
-export default AppWorkflow;
+export default AppWorkFlow;
