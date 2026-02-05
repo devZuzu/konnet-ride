@@ -1,0 +1,109 @@
+.workflow {
+  width: 100%;
+  padding: 120px 140px;
+  background: #fff;
+}
+
+.workflow h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* TABS */
+.workflow-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.tab {
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: none;
+  background: #f2f2f2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #f4b400;
+  color: #000;
+  font-weight: 600;
+}
+
+/* CONTENT */
+.workflow-content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+/* PHONES */
+.workflow-phones {
+  position: relative;
+  width: 420px;
+}
+
+.phone {
+  height: 520px;
+}
+
+.phone.front {
+  position: relative;
+  z-index: 2;
+}
+
+.phone.back {
+  position: absolute;
+  right: -60px;
+  top: 40px;
+  z-index: 1;
+}
+
+/* STEPS */
+.workflow-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  gap: 40px 60px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 320px;
+}
+
+/* STEP ICON CONTAINER */
+.icon {
+  width: 48px;
+  height: 48px;
+  background: #fff3d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* ICON IMAGE SIZE */
+.step-icon-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+
+.step h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.step p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}

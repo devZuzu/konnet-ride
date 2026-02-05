@@ -1,0 +1,64 @@
+.download-cta {
+  width: 100%;
+  max-width: 1540px;   /* optional, center for large screens */
+  background-color: #fcd112;
+  padding: 1px 140px; /* desktop spacing */
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  position: relative;
+  margin: 0 auto; 
+
+/* LEFT CONTENT */
+.cta-content {
+  max-width: 700px;
+}
+
+.cta-content h2 {
+  font-size: 48px; 
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.cta-content p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #0e0d0d;
+}
+
+/* RIGHT IMAGE */
+.cta-image {
+  position: relative;
+  width: 450px; 
+  height: auto;
+  margin-right: -1rem;
+}
+
+.phone-main {
+  height: 500px;
+  max-width: 100%;
+}
+
+.phone-side {
+  position: absolute;
+  right: -50px;
+  top: 50px;
+  height: 420px;
+  z-index: 1;
+}
+
+
+.download-cta p a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.download-cta p a:hover {
+  color: #fff;
+}
