@@ -1,0 +1,38 @@
+.legal-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  padding: 110px 0 80px;
+}
+
+.terms-container {
+    font-size: 20px;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 40px;
+  color: #777;
+}
+
+.terms-container h3 {
+  /* font-size: 20px; */
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.updated {
+  color: #777;
+  margin-bottom: 30px;
+  margin-top: 2rem;
+}
+
+.terms-container h4 {
+ /*  font-size: 20px; */
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.terms-container p {
+  /* font-size: 16px; */
+  line-height: 1.8;
+  margin-bottom: 12px;
+}

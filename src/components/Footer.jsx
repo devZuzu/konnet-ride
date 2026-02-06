@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import KonnectFooter from "../assets/Konnect-footer.png";
+import X from "../assets/x.png";
+import Facebook from "../assets/facebook.png";  
+import Instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
@@ -20,8 +24,9 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#workflow">Privacy policy</a></li>
-            <li><a href="#download">Terms and condition</a></li>
+            <li><Link to="/privacy"><a href="#privacy">Privacy policy</a></Link></li>
+            <li><Link to="/terms"><a href="#terms">Terms and condition</a></Link></li>
+            
           </ul>
         </div>
 
@@ -33,15 +38,15 @@ const Footer = () => {
           <p>contact@example.com</p>
 
           <div className="social-icons">
-            <a href="#"><img src="/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="/instagram.png" alt="Instagram" /></a>
+            <a href="#"><img src={Facebook} alt="Facebook" /></a>
+            <a href="#"><img src={X} alt="X" /></a>
+            <a href="#"><img src={Instagram} alt="Instagram" /></a>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© Copyright Konnect (c) 2024. All right reserved.</p>
+        <p>Copyright Konnect (c) 2024. All right reserved.</p>
       </div>
     </footer>
   );
