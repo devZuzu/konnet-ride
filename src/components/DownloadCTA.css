@@ -1,8 +1,8 @@
 .download-cta {
   width: 100%;
-  max-width: 1540px;   /* optional, center for large screens */
+  max-width: 1540px;   
   background-color: #fcd112;
-  padding: 1px 140px; /* desktop spacing */
+  padding: 1px 140px; 
   border-radius: 18px;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   color: #000;
   position: relative;
   margin: 0 auto; 
-
+}
 /* LEFT CONTENT */
 .cta-content {
   max-width: 700px;
